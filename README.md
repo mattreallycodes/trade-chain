@@ -1,97 +1,38 @@
-# Tradechain: A custom blockchain for DeFi, Quant developers designed with latency in mind. 
+# Tradechain 
 
-## Use Cases: 1) Trading Interoperability 2) Lower latency trading 3) Faster TS
+Tradechain is an open source blockchain designed for fast trading & interoperability for new, existing assets. Help build the future of trading
 
-### Created using Rust, Substrate 
+## Architecture
 
-### Using Nix
+Tradechain is built on Substrate with Rust, Solidity. In the future Tradechain will evolve to be language agnostic. 
 
-Install [nix](https://nixos.org/) and optionally [direnv](https://github.com/direnv/direnv) and
-[lorri](https://github.com/target/lorri) for a fully plug and play experience for setting up the
-development environment. To get all the correct dependencies activate direnv `direnv allow` and
-lorri `lorri shell`.
+## Features 
 
-### Rust Setup
+* Interoperability for new existing, on-chain assets
+* Support for building smart contracts with Rust, Solidity
+* Environmentally friendly consensus mechanism 
+* Custom dApp that makes managing new, existing multi-chain onchain assets
+* Faster Transactions
 
-First, complete the [basic Rust setup instructions](./docs/rust-setup.md).
+## Getting started
 
-### Run
+1. Read the [Tradechain](https://app.gitbook.com/s/B092CfMJl1avcpO4aqgz/~/changes/e329n8LL0iczUqGW0Y1D/) documentation 
+2. Read the [Substrate](https://docs.substrate.io/) Documentation
+3. Read the [Rust](https://paritytech.github.io/substrate/master/sc_service/index.html) documentation
 
-Use Rust's native `cargo` command to build and launch the template node:
+## Links
 
-```sh
-cargo run --release -- --dev
-```
+* [Main Site] Coming soon
+* [Discord] Coming Soon
+* [Documentation](https://app.gitbook.cm/s/B-02CfMJL1avcp04aqgz/)
+* [Twitter] Coming Soon
 
-### Build
+## Contributing 
 
-The `cargo run` command will perform an initial build. Use the following command to build the node
-without launching it:
+Tradechain is open-source, contributors are welcome. Contributor guide coming soon. 
 
-```sh
-cargo build --release
-```
+## License
 
-### Embedded Docs
+[Apache 2.0] (./LICENSE)
 
-Once the project has been built, the following command can be used to explore all parameters and
-subcommands:
 
-```sh
-./target/release/node-template -h
-```
-
-## Run
-
-The provided `cargo run` command will launch a temporary node and its state will be discarded after
-you terminate the process. After the project has been built, there are other ways to launch the
-node.
-
-### Single-Node Development Chain
-
-This command will start the single-node development chain with non-persistent state:
-
-```bash
-./target/release/node-template --dev
-```
-
-Purge the development chain's state:
-
-```bash
-./target/release/node-template purge-chain --dev
-```
-
-Start the development chain with detailed logging:
-
-```bash
-RUST_BACKTRACE=1 ./target/release/node-template -ldebug --dev
-```
-
-> Development chain means that the state of our chain will be in a tmp folder while the nodes are
-> running. Also, **alice** account will be authority and sudo account as declared in the
-> [genesis state](https://github.com/substrate-developer-hub/substrate-node-template/blob/main/node/src/chain_spec.rs#L49).
-> At the same time the following accounts will be pre-funded:
-> - Alice
-> - Bob
-> - Alice//stash
-> - Bob//stash
-
-In case of being interested in maintaining the chain' state between runs a base path must be added
-so the db can be stored in the provided folder instead of a temporal one. We could use this folder
-to store different chain databases, as a different folder will be created per different chain that
-is ran. The following commands shows how to use a newly created folder as our db base path.
-
-```bash
-// Create a folder to use as the db base path
-$ mkdir my-chain-state
-
-// Use of that folder to store the chain state
-$ ./target/release/node-template --dev --base-path ./my-chain-state/
-
-// Check the folder structure created inside the base path after running the chain
-$ ls ./my-chain-state
-chains
-$ ls ./my-chain-state/chains/
-dev
-$ ls ./my-chain-state/chains/dev
-db keystore network
