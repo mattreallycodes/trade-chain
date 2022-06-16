@@ -24,7 +24,7 @@ Tradechain is built on Substrate with Rust, Solidity. In the future Tradechain w
 
 * [Main Site] Coming soon
 * [Discord] Coming Soon
-* [Documentation](https://app.gitbook.cm/s/B-02CfMJL1avcp04aqgz/)
+* [Documentation](https://app.gitbook.com/s/B-02CfMJL1avcp04aqgz/)
 * [Twitter] Coming Soon
 
 ## Contributing 
