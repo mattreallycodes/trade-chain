@@ -16,7 +16,7 @@ Tradechain is built on Substrate with Rust, Solidity. In the future Tradechain w
 
 ## Getting started
 
-1. Read the [Tradechain](https://app.gitbook.com/s/B092CfMJl1avcpO4aqgz/~/changes/e329n8LL0iczUqGW0Y1D/) documentation 
+1. Read the [Tradechain](https://mattreallycodes.gitbook.io/tradechain-developer-docs/) documentation 
 2. Read the [Substrate](https://docs.substrate.io/) Documentation
 3. Read the [Rust](https://paritytech.github.io/substrate/master/sc_service/index.html) documentation
 
@@ -27,9 +27,18 @@ Tradechain is built on Substrate with Rust, Solidity. In the future Tradechain w
 * [Documentation](https://app.gitbook.com/s/B092CfMJl1avcpO4aqgz/)
 * [Twitter] Coming Soon
 
+## Get Help
+
+If you are in need of help or don't understand something, for now feel free to use the issues section here to open a new issue & someone in the community will respond at some point. This project isn't designed for beginners who are new to blockchain development so there is some likelihood that the majority of contributors have quite a lot of experience at least with engineering generally, not to deter anyone from contributing... everyone is welcome to contribute. 
+
+## Best Pratices 
+For now let's use https://doc.rust-lang.org/1.12.0/style/ as the style guide for our code. Later on we will add auto formating & other interesting features using Github actions or something similar with CI/CD. 
+ 
 ## Contributing 
 
-Tradechain is open-source, contributors are welcome. Contributor guide coming soon. 
+Tradechain is open-source, contributors are welcome. Contributor guide coming soon. If you're interested in contributing to a specific area feel free to reach out to Matt (mattreallycodes@protonmail.com) & he may be able to help you synergise your efforts with the efforts of others in the community.
+
+For now we will use a branching workflow, create a new branch with what you want to change & Matt will approve pulling the changes into the master branch at a later time. Refer to best practices above for any other tips.
 
 ## License
 
