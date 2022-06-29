@@ -19,6 +19,7 @@ Tradechain is built on Substrate with Rust, Solidity. In the future Tradechain w
 1. Read the [Tradechain](https://mattreallycodes.gitbook.io/tradechain-developer-docs/) documentation 
 2. Read the [Substrate](https://docs.substrate.io/) Documentation
 3. Read the [Rust](https://paritytech.github.io/substrate/master/sc_service/index.html) documentation
+4. Read the [Contributor Guidelines](Placeholder for now)
 
 ## Links
 
@@ -42,6 +43,6 @@ For now we will use a branching workflow, create a new branch with what you want
 
 ## License
 
-[Apache 2.0] (./LICENSE)
+[Apache 2.0] (../LICENSE)
 
 
