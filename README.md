@@ -1,6 +1,6 @@
 # Tradechain 
 
-Tradechain is an open source blockchain designed for fast trading & interoperability for new, existing assets. Help build the future of trading
+Tradechain is an open source blockchain designed for fast trading & interoperability for new, existing assets. Help build the future of trading with other Tradians. 
 
 ## Architecture
 
@@ -30,10 +30,11 @@ Tradechain is built on Substrate with Rust, Solidity. In the future Tradechain w
 
 ## Get Help
 
-If you are in need of help or don't understand something, for now feel free to use the issues section here to open a new issue & someone in the community will respond at some point. This project isn't designed for beginners who are new to blockchain development so there is some likelihood that the majority of contributors have quite a lot of experience at least with engineering generally, not to deter anyone from contributing... everyone is welcome to contribute. 
+If you are in need of help or don't understand something, for now feel free to use the issues section here to open a new issue & someone in the community will respond at some point.
 
-## Best Pratices 
-For now let's use https://doc.rust-lang.org/1.12.0/style/ as the style guide for our code. Later on we will add auto formating & other interesting features using Github actions or something similar with CI/CD. 
+## Best Practices
+
+Please review the contributor guidelines for more information. 
  
 ## Contributing 
 
