@@ -37,12 +37,12 @@ For now let's use https://doc.rust-lang.org/1.12.0/style/ as the style guide for
  
 ## Contributing 
 
-Tradechain is open-source, contributors are welcome. Contributor guide coming soon. If you're interested in contributing to a specific area feel free to reach out to Matt (mattreallycodes@protonmail.com) & he may be able to help you synergise your efforts with the efforts of others in the community.
+Tradechain is open-source, contributors are welcome. Contributor guidelines coming soon. If you're interested in contributing to a specific area feel free to reach out to Matt (mattreallycodes@protonmail.com) & he may be able to help you synergise your efforts with the efforts of others in the community.
 
 For now we will use a branching workflow, create a new branch with what you want to change & Matt will approve pulling the changes into the master branch at a later time. Refer to best practices above for any other tips.
 
 ## License
 
-[Apache 2.0] (../LICENSE)
+[Apache 2.0](./LICENSE)
 
 
